@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="fitflex reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations." />
+  <title>FitFlex</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+  <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header" id="home">
+    <div class="container">
+      <nav class="header-navigation" aria-label="navigation">
+        <div class="logo"><span class="yellow">Fit</span>Flex</div>
+
+        <img src="img/nav-icon.svg" alt="navigation icon" class="nav-icon" width="30" height="30" />
+
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#courses">Courses</a>
+          </li>
+          <li>
+            <a href="#trainers">Trainers</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="container hero-box">
+        <div class="hero-content margin-bottom">
+          <h1 class="heading heading--1 margin-bottom">
+            A place for your fitness goals
+          </h1>
+          <p class="description">
+            We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+            TRX And Much More
+          </p>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn__primary margin-right margin-bottom">
+            Join us
+          </button>
+          <button class="btn btn__secondary">Our services</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="section-about" id="about">
+      <div class="about-box container">
+        <div class="about-box__content" data-aos="fade-up">
+          <h2 class="heading heading--2">
+            About <span class="yellow">Fit</span>Flex
+          </h2>
+          <p>
+            "Get Fit, Get Smart: AI Gym - Your Personalized Fitness Experience"
+          </p>
+          <a href="#" class="link-button">Read More &rarr;</a>
+        </div>
+        <figure class="about-box__image" data-aos="fade-up">
+          <img src="img/about-img-1.jpg" alt="about-image-one" width="350" height="233" />
+          <img src="img/about-img-2.jpg" alt="about-image-twwo" width="350" height="233" />
+          <img src="img/about-img-3.jpg" alt="about-image-three" width="420" height="280" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECTION COURSES -->
+    <section class="section-courses" id="courses">
+      <div class="container courses-box" data-aos="fade-up">
+        <header class="courses-heading">
+          <h2 class="heading heading--2 underline">Our Courses</h2>
+          <p>
+            Enroll in any course this month and receive a complimentary fitness assessment and personalized training plan!
+          </p>
+        </header>
+
+        <article class="courses-content">
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-bodybuilding.jpg" alt="body building course" width="550"
+              height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Bodybuilding offers a path to building confidence, resilience, and a stronger, healthier body. With
+                  the right training program, nutrition plan, and mindset, you can achieve your goals and unlock your
+                  full potential in the gym and beyond
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+
+            <div class="class-card__title">Body Building</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-crossfit.jpg" alt="cross fit course" width="550"
+              height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+
+                  CrossFit is a high-intensity fitness program that combines elements of weightlifting, gymnastics, and
+                  cardiovascular exercise
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+            <div class="class-card__title">Cross Fit</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-gymnastic.jpg" alt="gymnastic course" width="550"
+              height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>Gymnastics is a dynamic and challenging sport that encompasses a wide range of movements, including
+                  flips, twists, balances, and strength-based exercises. It's a discipline that requires precision,
+                  coordination, flexibility, and strength, making it both physically demanding and mentally stimulating.
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+
+            <div class="class-card__title">Gymnastic</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-fitness.jpg" alt="fitness course" width="550"
+              height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+
+                  Fitness is a journey towards optimal health and well-being, encompassing physical, mental, and
+                  emotional aspects. It's not just about being active; it's about nurturing your body, mind, and spirit
+                  to live your best life.
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+            <div class="class-card__title">Fitness</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-TRX.jpg" alt="fitness course" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  TRX, or Total Resistance eXercise, is a versatile and effective form of suspension training that
+                  utilizes bodyweight exercises to improve strength, flexibility, balance, and core stability.
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+            <div class="class-card__title">TRX</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img" src="./img/courses-boxing.jpg" alt="fitness course" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  Boxing is a dynamic and exhilarating sport that combines strength, speed, agility, and strategy. It's
+                  not just about throwing punches; it's a full-body workout that challenges both physical and mental
+                  endurance.
+                </p>
+
+                <a href="#" class="link-button">Read More &rarr;</a>
+              </div>
+            </div>
+            <div class="class-card__title">Boxing</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION OFFER -->
+    <section class="section-offer" id="offer">
+      <div class="offer-box">
+        <div class="offer" data-aos="fade-up">
+          <h2 class="heading heading--2 margin-bottom">
+            Special offer this summer get full Benefits for year with 20%
+            discount.
+          </h2>
+          <p class="margin-bottom">
+            Unlock Your Fitness Potential This Summer! Enjoy a Full Year of Benefits with a Special Discount. Don't Miss Out – Invest in Your Health and Savings Today!"
+          </p>
+          <button class="btn btn__primary">Become a member</button>
+        </div>
+
+        <div class="offer-img"></div>
+      </div>
+    </section>
+
+    <!-- SECTION COACHES -->
+    <section class="section-coaches" id="trainers">
+      <div class="container coaches-box" data-aos="fade-up">
+        <header class="coache-heading">
+          <h2 class="heading heading--2 underline margin-bottom">
+            OUR FITNESS COACHES
+          </h2>
+          <p>
+            Fitness coaches play a crucial role in helping individuals achieve their health and wellness goals by providing personalized guidance, motivation, and support. 
+          </p>
+        </header>
+
+        <article class="coache-content">
+          <div class="c-card">
+            <img src="img/coache-1.jpg" alt="coache one" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">MARK BERTUL</p>
+              <p class="c-title">Body Building</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="img/coache-2.jpg" alt="coache one" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">serio mike</p>
+              <p class="c-title">Cardio Expert</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="img/coache-3.jpg" alt="coache three" class="c-card__img" width="550" height="550" />
+            <div class="overlay">
+              <img src="./img/logo-whatsapp.svg" alt="whatsapp-icon" width="30" height="30" />
+
+              <img src="./img/logo-facebook.svg" alt="facebook-icon" width="30" height="30" />
+
+              <img src="./img/logo-instagram.svg" alt="instagram-icon" width="30" height="30" />
+
+              <img src="./img/logo-twitter.svg" alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">SVEN MIEKE</p>
+              <p class="c-title">Fitness Coach</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION REVIEW -->
+    <section class="section-review" id="review">
+      <div class="review-box container" data-aos="fade-up">
+        <h2 class="heading heading--2 underline margin-bottom grid-center">
+          what famous personaliy say
+        </h2>
+
+        <div class="review-card">
+          <img src="img/phil.webp" alt="user" class="review-card__image" width="100" height="100" />
+          <blockquote class="review-card__content">
+            <p class="text">
+              "Being negative and lazy is a disease that leads to pain, hardships, depression, poor health, and failure.
+              Be proactive and give a damn to achieve success."
+            </p>
+
+            <div class="name">Phil Heath</div>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <img src="img/ali.webp" alt="user" class="review-card__image" width="100" height="100" />
+          <blockquote class="review-card__content">
+            <p class="text">
+              "Champions aren’t made in the gyms. Champions are made from something they have deep inside them-a desire,
+              a dream, a vision."
+            </p>
+            <div class="name">Muhammad Ali</div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="section-contact" id="contact">
+      <div class="contact-box">
+        <form class="form-grp" data-aos="fade-up">
+          <h2 class="heading heading--2 margin-bottom">
+            Get in <span class="yellow">Touch</span>
+          </h2>
+
+          <input type="text" class="form form__input" placeholder="Name" />
+          <input type="text" class="form form__input" placeholder="Email" />
+          <input type="text" class="form form__input" placeholder="Phone" />
+          <textarea name="message" cols="5" rows="3" class="form form__input" placeholder="Message"></textarea>
+          <button class="btn btn__primary form-flex">Send &nbsp;</button>
+        </form>
+        <div id="mapid" data-aos="fade-up"></div>
+      </div>
+      <div>
+        <img src="img/FITFlex.png" alt="">
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="section-footer" id="footer">
+    <div class="footer-box container">
+      <div class="contact-details">
+        <h2 class="margin-bottom"><span class="yellow">Fit</span>Flex</h2>
+
+        <ul class="contact-data">
+          <li class="location">SRM IST</li>
+          <li class="phone">+91 0000000000</li>
+          <li class="email">fitflex@gmail.com</li>
+          <li class="social">
+            <img src="./img/logo-whatsapp.svg" alt="whatsapp icon" width="35" height="35" />
+
+            <img src="./img/logo-facebook.svg" alt="facebook icon" width="35" height="35" />
+
+            <img src="./img/logo-instagram.svg" alt="instagram icon" width="35" height="35" />
+
+            <img src="./img/logo-twitter.svg" alt="twitter icon" width="35" height="35" />
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav" aria-label="navigation">
+        <div class="nav-name">Quick Links</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="newsletter">
+        <div class="newsletter__title">News Letter</div>
+        <div class="newsletter__text">
+          Welcome to FitFlex! We're dedicated to helping you achieve your fitness goals and live a healthier, happier life. In each issue, you'll find inspiring stories, expert tips, workout routines, nutritious recipes, and much more. Let's embark on this journey together!
+
+
+        </div>
+        <form class="newsletter__input">
+          <input type="text" class="form" placeholder="name@gmail.com" />
+          <img src="./img/send.svg" alt="send icon" class="send-icon" width="36" height="36" />
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
